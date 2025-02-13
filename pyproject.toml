@@ -1,0 +1,12 @@
+[project]
+name = "langgraph-hello"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-aws>=0.2.12",
+    "langgraph>=0.2.72",
+    "langgraph-checkpoint>=2.0.13",
+    "python-dotenv>=1.0.1",
+]
